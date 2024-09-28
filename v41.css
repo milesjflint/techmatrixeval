@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+#criterion-container {
+    margin-top: 20px;
+}
+
+.stage-container {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+}
+
+.stage-container:hover {
+    background-color: #f1f1f1;
+}
+
+.stage-container.selected {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+#navigation-buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#calculate-button {
+    margin-top: 20px;
+}
+
+#total-score, #recommendation {
+    font-size: 18px;
+    color: #333;
+}
